@@ -15,10 +15,10 @@ class AnasayfaFragment : Fragment() {
 
 
        tasarim.buttonGitA.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.sayfaAFragment)
+            Navigation.findNavController(it).navigate(R.id.sayfaAGecis)
        }
        tasarim.buttonGitX.setOnClickListener {
-           Navigation.findNavController(it).navigate(R.id.sayfaXFragment)
+           Navigation.findNavController(it).navigate(R.id.sayfaXGecis)
        }
 
        return tasarim.root

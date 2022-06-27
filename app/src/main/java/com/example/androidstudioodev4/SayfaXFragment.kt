@@ -14,7 +14,7 @@ class SayfaXFragment : Fragment() {
         tasarim = FragmentSayfaXBinding.inflate(inflater, container, false)
 
         tasarim.buttonGitYFromX.setOnClickListener {
-            Navigation.findNavController(it).navigate(R.id.sayfaYFragment)
+            Navigation.findNavController(it).navigate(R.id.sayfaXToYGecis)
         }
 
         return tasarim.root
